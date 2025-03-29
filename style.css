@@ -639,7 +639,7 @@ main {
 
 .testimonials {
   position: relative;
-  height: 50vh;
+  height: 70vh;
   margin: 5rem 0;
   display: flex;
   flex-direction: column;
@@ -653,12 +653,16 @@ main {
   margin-bottom: 20px;
 }
 
+.testimonials-header h2 {
+  margin: 4rem;
+}
+
 /* Centered box with hidden overflow */
 .swiper-box {
   position: relative;
-  width: 55vw;
+  width: 40vw;
   /* Adjust box width */
-  height: 60vh;
+  height: 65vh;
   /* Adjust box height */
   overflow: hidden;
   display: flex;
@@ -677,10 +681,10 @@ main {
 
 /* Image Styling */
 .swiper-container img {
-  width: 40vw;
-  /* height: 70% */
-  /* Ensure proper size */
-  /* Reduce side gaps */
+  width: 30vw;
+  height: 40vh
+    /* Ensure proper size */
+    /* Reduce side gaps */
 }
 
 .swiper-slide {
@@ -693,7 +697,7 @@ main {
 
   0%,
   40% {
-    transform: translateX(20%);
+    transform: translateX(22%);
   }
 
   /* Stay at first image */
@@ -704,7 +708,7 @@ main {
 
   /* Move to second image */
   100% {
-    transform: translateX(20%);
+    transform: translateX(22%);
   }
 
   /* Back to first */
